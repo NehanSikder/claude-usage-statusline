@@ -1,0 +1,6 @@
+# Nothing machine-specific is tracked, but guard against accidents:
+*.bak
+settings.json
+.DS_Store
+__pycache__/
+*.pyc
