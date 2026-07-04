@@ -9,15 +9,7 @@ am I to being rate limited?"* at a glance — no glyphs to memorize.
 
 ![Claude usage status line: 5-hour, weekly, and context bars with plain-English labels](docs/demo.svg)
 
-Every label spells out what it means, so a teammate can read it cold. Plain-text
-view of the same bar:
-
-```
-Claude usage limits  (Opus 4.8)
-5-hour    █████░░░░░  54% used  · resets in 3h33m
-weekly    ██░░░░░░░░  24% used  · resets in 18h53m
-context   ████░░░░░░  73k / 200k (36%)  · normal rate limit ✓
-```
+Every label spells out what it means, so a teammate can read it cold.
 
 ## What each line means
 
