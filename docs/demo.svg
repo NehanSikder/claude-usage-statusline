@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="176" viewBox="0 0 620 176" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="15">
+  <rect x="0" y="0" width="620" height="176" rx="10" fill="#e4e2d6"/>
+  <g xml:space="preserve">
+    <!-- prompt line -->
+    <text x="18" y="34" fill="#4a9e5c" font-weight="bold">&#10095; This is how it works!</text>
+
+    <!-- header -->
+    <text x="18" y="70" fill="#6f6f66">Claude usage limits  (Opus 4.8)</text>
+
+    <!-- 5-hour (yellow tier: 50-80%) -->
+    <text x="18" y="94"><tspan fill="#6f6f66">5-hour    </tspan><tspan fill="#b8862b">&#9608;&#9608;&#9608;&#9608;&#9608;&#9617;&#9617;&#9617;&#9617;&#9617;  54% used</tspan><tspan fill="#6f6f66">  &#183; resets in 3h33m</tspan></text>
+
+    <!-- weekly (green tier) -->
+    <text x="18" y="118"><tspan fill="#6f6f66">weekly    </tspan><tspan fill="#4a9e5c">&#9608;&#9608;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;  24% used</tspan><tspan fill="#6f6f66">  &#183; resets in 18h53m</tspan></text>
+
+    <!-- context (green: under 150k) -->
+    <text x="18" y="142"><tspan fill="#6f6f66">context   </tspan><tspan fill="#4a9e5c">&#9608;&#9608;&#9608;&#9608;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617; 73k / 200k (36%)</tspan><tspan fill="#6f6f66">  &#183; normal rate limit &#10003;</tspan></text>
+  </g>
+</svg>
